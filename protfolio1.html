@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="protfolio1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rashmi Kanta Behera</h1>
+            <p>Web Developer</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Rashmi Kanta Behera, a passionate web developer with experience in front-end and back-end technologies. Currently pursuing my B.Tech and dedicated to crafting seamless user experiences.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-gallery">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website to showcase my work and skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Responsive Web Design</h3>
+                <p>A collection of responsive website templates that adapt to different screen sizes.</p>
+            </div>
+            <div class="project-card">
+                <h3>JavaScript Game</h3>
+                <p>An interactive game created using vanilla JavaScript, HTML, and CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java Programming</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React & Node.js</li>
+            <li>Web Development & UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p id="response-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Rashmi Kanta Behera</p>
+    </footer>
+
+    <script src="protfolio1.js"></script>
+</body>
+</html>
